@@ -620,3 +620,48 @@
     filter: brightness(1.2);
     opacity: 0.9;
 }
+
+.bottom-bar {
+    position: fixed;
+    bottom: 0;
+    width: 30%;
+    max-width: 600px;
+    height: 6%;
+    left: 35%;
+    background-color: #ffffff66;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    z-index: 1000;
+    border-radius: 0.625rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.bar_icon {
+    min-width: 2.2rem;
+    max-width: 2.2rem;
+    min-height: 2.2rem;
+    max-height: 2.2rem;
+    object-fit: contain;
+    display:block;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.bar_icon:hover {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+    opacity: 0.9;
+}
+
+.bar_text {
+    min-width: 0rem;
+    max-width: 0rem;
+    min-height: 2.2rem;
+    max-height: 2.2rem;
+    object-fit: contain;
+    display:block;
+}
