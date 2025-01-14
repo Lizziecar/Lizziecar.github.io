@@ -684,6 +684,7 @@ a:active {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     position: fixed;
     top: 0;
+    left: 5rem;
 }
 
 .navi-box {
