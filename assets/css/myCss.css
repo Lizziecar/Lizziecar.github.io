@@ -699,3 +699,15 @@ a:active {
     font-family: MVB;
     display:block;
 }
+
+.assignments {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.089);
+	border-radius: 0.625rem;
+}
+
+.buffer {
+    width: 3rem;
+}
