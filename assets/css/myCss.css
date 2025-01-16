@@ -734,7 +734,7 @@ a:active {
 }
 
 .myP2 {
-    line-height: 0.5rem;
+    line-height: 1.1rem;
 }
 
 .interests {
@@ -771,4 +771,5 @@ a:active {
     -webkit-justify-content: center;
     -ms-justify-content: center;
     justify-content: center;
+    max-width: 50rem;
 }
