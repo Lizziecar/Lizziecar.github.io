@@ -123,6 +123,10 @@ a:active {
 	border-radius: 3rem;
 }
 
+.myH2 {
+    font-size: 100%;
+}
+
 .myTable {
 	border-collapse: collapse; /* Collapses borders to remove spacing between cells */
 	width: 100%; /* Optional: Adjust table width as needed */
@@ -131,11 +135,11 @@ a:active {
 }
 .myTd {
 	margin: 0; /* Removes default margins from paragraphs */
-	padding: 0; /* Optional: Remove padding if necessary */
+	padding: 1rem; /* Optional: Remove padding if necessary */
 }
 .myTr {
 	margin: 0; /* Removes default margins from paragraphs */
-	padding: 0; /* Optional: Remove padding if necessary */
+	padding: 2rem; /* Optional: Remove padding if necessary */
 }
 
 .tableP {
@@ -706,8 +710,65 @@ a:active {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.089);
 	border-radius: 0.625rem;
+    padding: 1rem;
 }
 
 .buffer {
     width: 3rem;
+}
+
+.skills {
+    background-color: #c5918e;
+    padding: 1rem;
+    border-radius: 0.625rem;
+}
+
+.skills_table {
+    display: grid;
+    gap: 1rem;
+}
+
+.non-technical {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.myP2 {
+    line-height: 0.5rem;
+}
+
+.interests {
+    background-color: #c5918e;
+    padding: 1rem;
+    border-radius: 0.625rem;
+}
+
+.interests_table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+}
+
+.skills_interests {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+/* top | right | bottom | left */
+.myContent {
+    padding: 3.5rem 1rem 2rem 1rem ;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
 }
